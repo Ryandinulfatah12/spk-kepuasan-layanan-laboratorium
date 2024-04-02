@@ -1,5 +1,10 @@
 # Dokumentasi Sistem Aplikasi SPK Kepuasan Pelayanan Lab dan Mata Kuliah Praktikum Menggunakan Metode Fuzzy Tsukamoto
 
+
+## Screenshots
+
+![App Screenshot](https://github.com/Ryandinulfatah12/spk-kepuasan-layanan-laboratorium/blob/main/public/img/screenshoot/thumbnail-skppl.png?raw=true)
+
 ## Deskripsi
 
 Sistem aplikasi ini dirancang untuk mengukur tingkat kepuasan terhadap pelayanan laboratorium dan mata kuliah praktikum menggunakan metode Fuzzy Tsukamoto. Metode Fuzzy Tsukamoto digunakan untuk mengatasi ketidakpastian dan kompleksitas dalam mengevaluasi tingkat kepuasan berdasarkan rating yang diberikan oleh pengguna.
@@ -50,6 +55,10 @@ Metode satisfactionLevel digunakan untuk menentukan tingkat kepuasan berdasarkan
 ## Requirements
 
 **Laravel v10.48.4 (PHP v8.1.10)**
+
+## Database 
+**MySQL**
+![Structure](https://github.com/Ryandinulfatah12/spk-kepuasan-layanan-laboratorium/blob/main/public/img/screenshoot/database.png?raw=true)
 
 ### Dependencies
 
