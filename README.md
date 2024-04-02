@@ -3,7 +3,7 @@
 
 ## Screenshots
 
-![App Screenshot]([https://github.com/Ryandinulfatah12/spk-kepuasan-layanan-laboratorium/blob/main/public/img/screenshoot/thumbnail-skppl.png?raw=true])
+![App Screenshot](https://github.com/Ryandinulfatah12/spk-kepuasan-layanan-laboratorium/blob/main/public/img/screenshoot/thumbnail-skppl.png?raw=true)
 
 ## Deskripsi
 
@@ -58,7 +58,7 @@ Metode satisfactionLevel digunakan untuk menentukan tingkat kepuasan berdasarkan
 
 ## Database 
 **MySQL**
-![Structure]([https://github.com/Ryandinulfatah12/spk-kepuasan-layanan-laboratorium/blob/main/public/img/screenshoot/database.png?raw=true])
+![Structure](https://github.com/Ryandinulfatah12/spk-kepuasan-layanan-laboratorium/blob/main/public/img/screenshoot/database.png?raw=true)
 
 ### Dependencies
 
