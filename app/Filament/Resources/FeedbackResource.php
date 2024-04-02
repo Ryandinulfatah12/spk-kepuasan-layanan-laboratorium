@@ -27,6 +27,7 @@ use Filament\Forms\Components\RichEditor;
 use Filament\Tables\Columns\TextColumn;
 use Filament\Tables\Columns\ViewColumn;
 use App\Services\FuzzyTsukamotoService;
+use Filament\Tables\Actions\Action;
 use Filament\Actions\ViewAction;
 use Filament\Infolists\Components\RepeatableEntry;
 use Filament\Infolists\Components\Section;
@@ -70,7 +71,13 @@ class FeedbackResource extends Resource
 
     public static function table(Table $table): Table
     {
+        if (auth()->user()->role !== 'admin') {
+            $query = Feedback::where('user_id', auth()->user()->id)->latest();
+        } else {
+            $query = Feedback::latest();
+        }
         return $table
+            ->query($query)
             ->columns([
                 TextColumn::make('user.name')->searchable(),
                 TextColumn::make('course.name')->searchable(),
@@ -129,7 +136,8 @@ class FeedbackResource extends Resource
                 ]),
             ])
             ->recordUrl(null)
-            ->defaultSort('created_at', 'desc');
+            ->defaultSort('created_at', 'desc')
+            ->poll('10s');
     }
 
     public static function infolist(Infolist $infolist): Infolist

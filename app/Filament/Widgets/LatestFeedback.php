@@ -21,18 +21,13 @@ class LatestFeedback extends BaseWidget
 
     public function table(Table $table): Table
     {
+        if (auth()->user()->role !== 'admin') {
+            $query = Feedback::where('user_id', auth()->user()->id)->latest();
+        } else {
+            $query = Feedback::latest();
+        }
         return $table
-        ->query(
-            Feedback::where('user_id', auth()->user()->id)->latest()
-
-            // if (auth()->user()->role !== 'admin') {
-            //     Feedback::where('user_id', auth()->user()->id)
-            //                             ->whereYear('created_at', date('Y'))->get();
-            // } else {
-            //     Feedback::whereYear('created_at', date('Y'))->get();
-            // }
-
-            )
+        ->query($query)
             ->columns([
                 TextColumn::make('user.name')->searchable(),
                 TextColumn::make('course.name')->searchable(),
