@@ -202,6 +202,7 @@ class FeedbackResource extends Resource
             Section::make('Rating Kamu')
             ->schema([
                 RepeatableEntry::make('facility_feedback')
+                ->label('Rating yang kamu berikan untuk Laboratorium dan Praktikum ini')
                 ->schema([
                     TextEntry::make('facility.name'),
                     RatingEntry::make('rating'),
