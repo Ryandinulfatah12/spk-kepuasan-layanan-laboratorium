@@ -5,6 +5,8 @@
 
 ![App Screenshot](https://github.com/Ryandinulfatah12/spk-kepuasan-layanan-laboratorium/blob/main/public/img/screenshoot/thumbnail-skppl.png?raw=true)
 
+![Alur App]([https://github.com/Ryandinulfatah12/spk-kepuasan-layanan-laboratorium/blob/main/public/img/screenshoot/thumbnail-skppl.png?raw=true](https://private-user-images.githubusercontent.com/46431723/318879126-d0df447e-fa94-42a0-98d3-463f56c3a396.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTIwNzYyMjksIm5iZiI6MTcxMjA3NTkyOSwicGF0aCI6Ii80NjQzMTcyMy8zMTg4NzkxMjYtZDBkZjQ0N2UtZmE5NC00MmEwLTk4ZDMtNDYzZjU2YzNhMzk2LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA0MDIlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwNDAyVDE2Mzg0OVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWE1MGIxMzZjNDYzMmRkZjRkY2IzOTkzNjZlYWMwZGM5YjkwMDFlMGM0ZmE1NjQ4NWI2ZGZkMmM3YjU1OThlMzgmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.5fMxwxXBJH2ABzTNJYxhwdN7KBuHUJ6y8-JViLlNeKM))
+
 ## Deskripsi
 
 Sistem aplikasi ini dirancang untuk mengukur tingkat kepuasan terhadap pelayanan laboratorium dan mata kuliah praktikum menggunakan metode Fuzzy Tsukamoto. Metode Fuzzy Tsukamoto digunakan untuk mengatasi ketidakpastian dan kompleksitas dalam mengevaluasi tingkat kepuasan berdasarkan rating yang diberikan oleh pengguna.
@@ -95,7 +97,7 @@ php artisan migrate --seed
 Run Project
 
 ```bash
-php artisan server
+php artisan serve
 ```
 
 ## Account Login
