@@ -83,14 +83,22 @@ cd spk-kepuasan-pelayanan-lab-matkul-praktikum
 ```
 
 Install dependencies
-
 ```bash
 composer update
+cp .env.example .env
 ```
 
-Migrate table & Seed Data
+Configurate Database Name (.env)
+```
+DB_PORT=3306
+DB_DATABASE=(nama_database_kamu_disini)
+DB_USERNAME=root
+DB_PASSWORD=
+```
+Generate Key, Migrate table & Seed Data
 
 ```bash
+php artisan key:generate
 php artisan migrate --seed
 ```
 
