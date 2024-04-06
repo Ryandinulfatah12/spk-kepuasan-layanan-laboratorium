@@ -17,6 +17,7 @@ class UserSeeder extends Seeder
         // Tambahkan pengguna admin
         User::create([
             'email' => 'admin@mail.com',
+            'name' => 'Belerick Admin',
             'password' => Hash::make('password'),
             'role' => 'admin',
         ]);
@@ -24,6 +25,7 @@ class UserSeeder extends Seeder
         // Tambahkan pengguna dosen
         User::create([
             'email' => 'lecturer@mail.com',
+            'name' => 'Aldous Dosen',
             'password' => Hash::make('password'),
             'role' => 'dosen',
         ]);
@@ -31,6 +33,7 @@ class UserSeeder extends Seeder
         // Tambahkan pengguna lain
         User::create([
             'email' => 'other@mail.com',
+            'name' => 'Badang  Mahasiswa',
             'password' => Hash::make('password'),
             'role' => 'other',
         ]);
