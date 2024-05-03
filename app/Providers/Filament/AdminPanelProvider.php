@@ -40,6 +40,12 @@ class AdminPanelProvider extends PanelProvider
                 Widgets\AccountWidget::class,
                 // Widgets\FilamentInfoWidget::class,
             ])
+            ->renderHook(
+                // This line tells us where to render it
+                'panels::body.end',
+                // This is the view that will be rendered
+                fn () => view('customFooter'),
+            )
         ->middleware([
                 EncryptCookies::class,
                 AddQueuedCookiesToResponse::class,
