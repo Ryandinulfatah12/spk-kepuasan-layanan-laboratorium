@@ -1,5 +1,5 @@
-<footer class="mt-5 fixed bottom-0 left-0 z-20 w-full p-4 bg-white border-t border-gray-200 shadow md:flex md:items-center md:justify-between md:p-6 dark:bg-gray-800 dark:border-gray-600">
-     <span class="text-sm text-gray-500 mx-auto sm:text-center dark:text-gray-400 mt-5">© 2024
+<footer class="mt-5 z-20 w-full p-4 bg-white border-t border-gray-200 shadow md:flex md:items-center md:justify-between md:p-6 dark:bg-gray-800 dark:border-gray-600">
+     <span class="text-sm text-gray-500 mx-auto sm:text-center dark:text-gray-400 mt-5">© 2026
         <a href="#" class="hover:underline">SPK PL - dan Kepuasan Mata Kuliah Praktikum™</a>. All Rights Reserved.
     </span>
 </footer>
